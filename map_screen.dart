@@ -106,7 +106,7 @@ class _MapScreenState extends State<MapScreen> {
 
     final origin = "${_currentLocation!.latitude},${_currentLocation!.longitude}";
     final destination = "${_destination!.latitude},${_destination!.longitude}";
-    final apiKey = "AIzaSyA1OYTvahexlXIDPJbVzsxpPZ0B5TM6PlI";
+    final apiKey = "Your api key";
 
     final url = Uri.parse(
       'https://maps.googleapis.com/maps/api/directions/json?origin=$origin&destination=$destination&key=$apiKey');
